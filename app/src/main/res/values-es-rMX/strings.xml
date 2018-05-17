@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bullying App</string>
+    <string name="title_home">Inicio</string>
+    <string name="photo_from">"Foto de: "</string>
+</resources>
