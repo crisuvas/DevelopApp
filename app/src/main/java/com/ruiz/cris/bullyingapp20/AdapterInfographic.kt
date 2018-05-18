@@ -29,8 +29,8 @@ class AdapterInfographic(var list: ArrayList<Infographic>): RecyclerView.Adapter
             val description : TextView = itemView.findViewById(R.id.tvMainText)
             val image: ImageView = itemView.findViewById(R.id.imgViewMain)
 
-            name.text = data.title
-            description.text = data.text
+            name.setText(data.title)
+            description.setText(data.text)
             Glide.with(itemView.context).load(data.imgId).into(image)
 
             itemView.setOnClickListener{

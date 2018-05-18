@@ -16,9 +16,10 @@ class MainActivity : AppCompatActivity() {
         reciclerView.layoutManager = LinearLayoutManager(this, LinearLayout.VERTICAL, false)
         val infographics = ArrayList<Infographic>()
 
-        infographics.add(Infographic("¿Qué es?", "Este es un texto de prueba 1",R.drawable.bullying_description_image))
-        infographics.add(Infographic("¿Qué es2?", "Este es un texto de prueba 12",R.drawable.bullying_description_image))
-        infographics.add(Infographic("¿Qué es3?", "Este es un texto de prueba 13",R.drawable.bullying_description_image))
+        infographics.add(Infographic(R.string.titleMainOne, R.string.textMainOne,R.drawable.bullying_main_one))
+        infographics.add(Infographic(R.string.titleMainTwo, R.string.textMainTwo,R.drawable.bullying_main_two))
+        infographics.add(Infographic(R.string.titleMainThree, R.string.textMainThree,R.drawable.bullying_main_three))
+        infographics.add(Infographic(R.string.titleMainFour, R.string.textMainFour,R.drawable.bullying_main_four))
 
         val adapter = AdapterInfographic(infographics)
 

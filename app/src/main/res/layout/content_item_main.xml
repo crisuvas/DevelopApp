@@ -14,20 +14,20 @@
         android:elevation="4dp">
 
         <ImageView
+            android:contentDescription="@string/justAPhoto"
             android:id="@+id/imgViewMain"
             android:layout_width="@dimen/image_width"
             android:layout_height="@dimen/image_height"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:src="@drawable/bullying_description_image" />
+            android:layout_alignParentTop="true"/>
 
         <TextView
             android:id="@+id/tvMainTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
+            android:paddingRight="@dimen/normal_margin"
             android:layout_toRightOf="@id/imgViewMain"
-            android:text="Hi hi is back"
             android:textSize="@dimen/title_text" />
 
         <TextView
@@ -35,8 +35,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/tvMainTitle"
+            android:paddingRight="@dimen/normal_margin"
             android:layout_toRightOf="@id/imgViewMain"
-            android:text="I need a larger txt, so i am writting serveral words to full the empty space an watch what i was done"
             android:textSize="@dimen/body_text" />
 
     </RelativeLayout>

@@ -3,4 +3,8 @@
     <string name="app_name">Bullying App</string>
     <string name="title_home">Inicio</string>
     <string name="photo_from">"Foto de: "</string>
+    <string name="titleMainOne">¿Qué es el Bullying?</string>
+    <string name="titleMainTwo">Tipos de Bullting</string>
+    <string name="titleMainThree">Historia del Bullying</string>
+    <string name="titelMainFour">¿Cómo lo puedo detectar?</string>
 </resources>

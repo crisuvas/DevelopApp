@@ -1,3 +1,3 @@
 package com.ruiz.cris.bullyingapp20
 
-class Infographic (var title: String, var text: String, var imgId: Int)
+class Infographic (var title: Int, var text: Int, var imgId: Int)

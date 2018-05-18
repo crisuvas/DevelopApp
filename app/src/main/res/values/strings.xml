@@ -4,8 +4,18 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="photo_from">Photo from: </string>
-    <string-array name="bulling_photos_rights">
-        <item>https://www.flickr.com/photos/pimkie_fotos/2512997167</item>
-    </string-array>
+    <string name="titleMainOne">¿What is Bullying?</string>
+    <string name="titleMainTwo">Kinds of Bullying</string>
+    <string name="titleMainThree">Bullying History</string>
+    <string name="titleMainFour">How can I detect it?</string>
+    <string name="textMainOne">Jejejejejeje</string>
+    <string name="textMainTwo">Jejejejejeje 2</string>
+    <string name="textMainThree">Jejejejejeje 3</string>
+    <string name="textMainFour">Jejejejejeje 4</string>
+    <string name="link_one">https://www.flickr.com/photos/pimkie_fotos/2512997167</string>
+    <string name="link_two">https://pixabay.com/en/shapes-actions-computer-symbol-27522/</string>
+    <string name="link_three">http://darkobra.deviantart.com/art/Tango-History-Icon-163719409 </string>
+    <string name="link_four">https://pixabay.com/en/magnifying-glass-science-searching-2833880/</string>
+    <string name="justAPhoto">just a photo</string>
 
 </resources>
