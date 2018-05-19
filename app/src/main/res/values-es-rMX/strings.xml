@@ -6,5 +6,9 @@
     <string name="titleMainOne">¿Qué es el Bullying?</string>
     <string name="titleMainTwo">Tipos de Bullting</string>
     <string name="titleMainThree">Historia del Bullying</string>
-    <string name="titelMainFour">¿Cómo lo puedo detectar?</string>
+    <string name="justAPhoto">Una foto</string>
+    <string name="titleMainFour">¿Cómo lo puedo detectar?</string>
+    <string name="home">Inicio</string>
+    <string name="quiz">Cuestionario</string>
+    <string name="stories">Historias</string>
 </resources>

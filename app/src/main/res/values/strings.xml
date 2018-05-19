@@ -12,10 +12,13 @@
     <string name="textMainTwo">Jejejejejeje 2</string>
     <string name="textMainThree">Jejejejejeje 3</string>
     <string name="textMainFour">Jejejejejeje 4</string>
-    <string name="link_one">https://www.flickr.com/photos/pimkie_fotos/2512997167</string>
+    <string name="link_one" translatable="false">https://www.flickr.com/photos/pimkie_fotos/2512997167</string>
     <string name="link_two">https://pixabay.com/en/shapes-actions-computer-symbol-27522/</string>
-    <string name="link_three">http://darkobra.deviantart.com/art/Tango-History-Icon-163719409 </string>
-    <string name="link_four">https://pixabay.com/en/magnifying-glass-science-searching-2833880/</string>
+    <string name="link_three" translatable="false">http://darkobra.deviantart.com/art/Tango-History-Icon-163719409 </string>
+    <string name="link_four" translatable="false">https://pixabay.com/en/magnifying-glass-science-searching-2833880/</string>
     <string name="justAPhoto">just a photo</string>
+    <string name="home">Home</string>
+    <string name="quiz">Quiz</string>
+    <string name="stories">Stories</string>
 
 </resources>

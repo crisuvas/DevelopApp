@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_btn"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home_black_24dp"/>
+    <item
+        android:id="@+id/quiz_btn"
+        android:title="@string/quiz"
+        android:icon="@drawable/ic_assignment_24dp"/>
+    <item
+        android:id="@+id/stories_btn"
+        android:title="@string/stories"
+        android:icon="@drawable/ic_book_24dp"/>
+</menu>
