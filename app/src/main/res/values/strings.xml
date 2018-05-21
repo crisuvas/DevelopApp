@@ -20,6 +20,9 @@
     <string name="home">Home</string>
     <string name="quiz">Quiz</string>
     <string name="stories">Stories</string>
+    <string name="startQuizTitle">Do you want to start the Quiz?</string>
+    <string name="startQuizText">You are going to start the quiz\n\nOnce you start it will be 20 Question that you have to respond according with your personal experience with you child\n\nPlease press Continue to Start the Quiz</string>
+    <string name="continues">Continue</string>
     <string name="titleQuestion1">Question 1 of 20</string>
     <string name="titleQuestion2">Question 2 of 20</string>
     <string name="titleQuestion3">Question 3 of 20</string>

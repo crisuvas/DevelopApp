@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary">
+    android:padding="@dimen/normal_margin">
 
+
+    <TextView
+        android:id="@+id/tv_titleQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startQuizTitle"
+        android:textStyle="bold"
+        android:textSize="@dimen/title_text"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/normal_margin"
+        android:layout_marginBottom="@dimen/normal_margin"
+        android:id="@+id/tv_textQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startQuizText"
+        android:layout_below="@id/tv_titleQuiz"
+        android:textSize="@dimen/body_text"/>
+
+    <Button
+        android:id="@+id/enter_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/title_text"
+        android:text="@string/continues"
+        android:textColor="@color/white"
+        android:layout_below="@id/tv_textQuiz"
+        android:background="@color/colorAccent"/>
 </RelativeLayout>

@@ -11,6 +11,9 @@
     <string name="home">Inicio</string>
     <string name="quiz">Cuestionario</string>
     <string name="stories">Historias</string>
+    <string name="startQuizTitle">¿Quieres empezar el cuestionario?</string>
+    <string name="startQuizText">Estás a punto de iniciar el cuestionario\n\nUna vez lo inicies habrá 20 preguntas que tendrás que responder de acuerdo a la experiencia personal con tu hijo\n\nFavor de presionar el botón Continuar para comenzar</string>
+    <string name="continues">Continuar</string>
     <string name="instruction">Instrucciones:</string>
     <string name="instructionText">Este cuestionario se contestará con una barra desplazadora, la cual medirá la frecuencia con que ocurran los sucesos que se preguntarán a continuación</string>
     <string name="start">Avanzar</string>
