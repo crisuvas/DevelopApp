@@ -66,80 +66,80 @@ class QuizActivity : AppCompatActivity(), View.OnClickListener {
                 tvTextQuestion.setText(R.string.textQuestion1)
             }
             2 ->{
-                tvTitleQuestion.text = getString(R.string.titleQuestion2)
-                tvTextQuestion.text = getString(R.string.textQuestion2)
+                tvTitleQuestion.setText(R.string.titleQuestion2)
+                tvTextQuestion.setText(R.string.textQuestion2)
             }
             3 ->{
-                tvTitleQuestion.text = getString(R.string.titleQuestion3)
-                tvTextQuestion.text = getString(R.string.textQuestion3)
+                tvTitleQuestion.setText(R.string.titleQuestion3)
+                tvTextQuestion.setText(R.string.textQuestion3)
             }
             4 ->{
-                tvTitleQuestion.text = getString(R.string.titleQuestion4)
-                tvTextQuestion.text = getString(R.string.textQuestion4)
+                tvTitleQuestion.setText(R.string.titleQuestion4)
+                tvTextQuestion.setText(R.string.textQuestion4)
             }
             5 ->{
-                tvTitleQuestion.text = getString(R.string.titleQuestion5)
-                tvTextQuestion.text = getString(R.string.textQuestion5)
+                tvTitleQuestion.setText(R.string.titleQuestion5)
+                tvTextQuestion.setText(R.string.textQuestion5)
             }
             6 ->{
-                tvTitleQuestion.text = getString(R.string.titleQuestion6)
-                tvTextQuestion.text = getString(R.string.textQuestion6)
+                tvTitleQuestion.setText(R.string.titleQuestion6)
+                tvTextQuestion.setText(R.string.textQuestion6)
             }
-            7 ->{
-                tvTitleQuestion.text = getString(R.string.titleQuestion7)
-                tvTextQuestion.text = getString(R.string.textQuestion7)
+            7 -> {
+                tvTitleQuestion.setText(R.string.titleQuestion7)
+                tvTextQuestion.setText(R.string.textQuestion7)
             }
             8 ->{
-                tvTitleQuestion.text = getString(R.string.titleQuestion8)
-                tvTextQuestion.text = getString(R.string.textQuestion8)
+                tvTitleQuestion.setText(R.string.titleQuestion8)
+                tvTextQuestion.setText(R.string.textQuestion8)
             }
             9 ->{
-                tvTitleQuestion.text = getString(R.string.titleQuestion9)
-                tvTextQuestion.text = getString(R.string.textQuestion9)
+                tvTitleQuestion.setText(R.string.titleQuestion9)
+                tvTextQuestion.setText(R.string.textQuestion9)
             }
             10 ->{
-                tvTitleQuestion.text = getString(R.string.titleQuestion10)
-                tvTextQuestion.text = getString(R.string.textQuestion10)
+                tvTitleQuestion.setText(R.string.titleQuestion10)
+                tvTextQuestion.setText(R.string.textQuestion10)
             }
             11 ->{
-                tvTitleQuestion.text = getString(R.string.titleQuestion11)
-                tvTextQuestion.text = getString(R.string.textQuestion11)
+                tvTitleQuestion.setText(R.string.titleQuestion11)
+                tvTextQuestion.setText(R.string.textQuestion11)
             }
             12 ->{
-                tvTitleQuestion.text = getString(R.string.titleQuestion12)
-                tvTextQuestion.text = getString(R.string.textQuestion12)
+                tvTitleQuestion.setText(R.string.titleQuestion12)
+                tvTextQuestion.setText(R.string.textQuestion12)
             }
             13 ->{
-                tvTitleQuestion.text = getString(R.string.titleQuestion13)
-                tvTextQuestion.text = getString(R.string.textQuestion13)
+                tvTitleQuestion.setText(R.string.titleQuestion13)
+                tvTextQuestion.setText(R.string.textQuestion13)
             }
             14 ->{
-                tvTitleQuestion.text = getString(R.string.titleQuestion14)
-                tvTextQuestion.text = getString(R.string.textQuestion14)
+                tvTitleQuestion.setText(R.string.titleQuestion14)
+                tvTextQuestion.setText(R.string.textQuestion14)
             }
             15 ->{
-                tvTitleQuestion.text = getString(R.string.titleQuestion15)
-                tvTextQuestion.text = getString(R.string.textQuestion15)
+                tvTitleQuestion.setText(R.string.titleQuestion15)
+                tvTextQuestion.setText(R.string.textQuestion15)
             }
             16 ->{
-                tvTitleQuestion.text = getString(R.string.titleQuestion16)
-                tvTextQuestion.text = getString(R.string.textQuestion16)
+                tvTitleQuestion.setText(R.string.titleQuestion16)
+                tvTextQuestion.setText(R.string.textQuestion16)
             }
             17 ->{
-                tvTitleQuestion.text = getString(R.string.titleQuestion17)
-                tvTextQuestion.text = getString(R.string.textQuestion17)
+                tvTitleQuestion.setText(R.string.titleQuestion17)
+                tvTextQuestion.setText(R.string.textQuestion17)
             }
             18 ->{
-                tvTitleQuestion.text = getString(R.string.titleQuestion18)
-                tvTextQuestion.text = getString(R.string.textQuestion18)
+                tvTitleQuestion.setText(R.string.titleQuestion18)
+                tvTextQuestion.setText(R.string.textQuestion18)
             }
             19 ->{
-                tvTitleQuestion.text = getString(R.string.titleQuestion19)
-                tvTextQuestion.text = getString(R.string.textQuestion19)
+                tvTitleQuestion.setText(R.string.titleQuestion19)
+                tvTextQuestion.setText(R.string.textQuestion19)
             }
             20 ->{
-                tvTitleQuestion.text = getString(R.string.titleQuestion20)
-                tvTextQuestion.text = getString(R.string.textQuestion20)
+                tvTitleQuestion.setText(R.string.titleQuestion20)
+                tvTextQuestion.setText(R.string.textQuestion20)
             }
         }
     }

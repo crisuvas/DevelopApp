@@ -8,18 +8,26 @@
 
     <TextView
         android:id="@+id/tv_titleQuestion"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_alignParentTop="true"
+        android:text="TextView"
+        android:textSize="@dimen/title_text"
+        android:gravity="center_horizontal"
+        android:background="@color/backgroundQuestionTitle"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/tv_textQuestion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_below="@id/tv_titleQuestion"
+        android:layout_above="@id/rg_options"
+        android:fontFamily="serif"
+        android:textSize="@dimen/body_text"
         android:layout_marginTop="@dimen/normal_margin"
+        android:gravity="center"
+        android:background="@color/backgroundQuestionText"
         android:text="TextView" />
 
 
@@ -29,7 +37,10 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_above="@id/button_next"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/normal_margin"
+        android:background="@color/white"
+        android:elevation="4dp">
 
 
         <RadioButton

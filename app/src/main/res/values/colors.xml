@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#c2185b</color>
     <color name="colorAccent">#aa00ff</color>
     <color name="white">#fff</color>
+    <color name="backgroundQuestionTitle">#1ac1b6</color>
+    <color name="backgroundQuestionText">#24ede0</color>
 </resources>

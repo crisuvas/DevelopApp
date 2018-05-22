@@ -68,12 +68,8 @@
     <string name="textQuestion19">How often are personal objects missing from your child?</string>
     <string name="textQuestion20">How common is your child irritated by questions asked about the above?</string>
     <string name="result">Result:</string>
-    <string name="kind">Kind of Bullying</string>
-    <string name="percentage">Percentage</string>
-    <string name="verbal">Verbal:</string>
-    <string name="psychological">psychological:</string>
-    <string name="Phisycal">Phisycal:</string>
-    <string name="social">Social:</string>
     <string name="recommendation">Recommendation:</string>
+    <string name="bullying_percentage">Bullying percentage</string>
+    <string name="finish">Finish</string>
 
 </resources>
