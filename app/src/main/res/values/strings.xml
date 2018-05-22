@@ -46,6 +46,7 @@
     <string name="never">Never</string>
     <string name="sometimes">Sometimes</string>
     <string name="always">Always</string>
+    <string name="next">Next</string>
     <string name="textQuestion1">How frequent is that your child don\'t want to go to school?</string>
     <string name="textQuestion2">Does your child stay at last to go out of the school?</string>
     <string name="textQuestion3">How frequent does your child change routes when he/she goes to school?</string>
