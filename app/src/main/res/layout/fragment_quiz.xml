@@ -14,9 +14,9 @@
         android:textSize="@dimen/title_text"/>
 
     <TextView
+        android:id="@+id/tv_textQuiz"
         android:layout_marginTop="@dimen/normal_margin"
         android:layout_marginBottom="@dimen/normal_margin"
-        android:id="@+id/tv_textQuiz"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/startQuizText"
@@ -30,6 +30,7 @@
         android:textSize="@dimen/title_text"
         android:text="@string/continues"
         android:textColor="@color/white"
-        android:layout_below="@id/tv_textQuiz"
+        android:layout_alignParentBottom="true"
         android:background="@color/colorAccent"/>
+
 </RelativeLayout>
