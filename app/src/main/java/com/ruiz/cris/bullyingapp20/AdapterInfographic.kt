@@ -1,5 +1,7 @@
 package com.ruiz.cris.bullyingapp20
 
+import android.content.Context
+import android.content.Intent
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
@@ -9,6 +11,7 @@ import android.widget.TextView
 import com.bumptech.glide.Glide
 
 class AdapterInfographic(var list: ArrayList<Infographic>): RecyclerView.Adapter<AdapterInfographic.ViewHolder>(){
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val v = LayoutInflater.from(parent.context).inflate(R.layout.content_item_main, parent,false)
         return ViewHolder(v)
@@ -24,6 +27,8 @@ class AdapterInfographic(var list: ArrayList<Infographic>): RecyclerView.Adapter
 
     class ViewHolder(view: View): RecyclerView.ViewHolder(view){
 
+
+
         fun bindItems(data:Infographic){
             val name : TextView = itemView.findViewById(R.id.tvMainTitle)
             val description : TextView = itemView.findViewById(R.id.tvMainText)
@@ -33,9 +38,7 @@ class AdapterInfographic(var list: ArrayList<Infographic>): RecyclerView.Adapter
             description.setText(data.text)
             Glide.with(itemView.context).load(data.imgId).into(image)
 
-            itemView.setOnClickListener{
 
-            }
         }
     }
 }

@@ -27,8 +27,8 @@ class HomeFragment : Fragment(){
         infographics.add(Infographic(R.string.titleMainFour, R.string.textMainFour, R.drawable.bullying_main_four))
 
         val adapter = AdapterInfographic(infographics)
-
         recyclerView.adapter = adapter
+
         return view
     }
 
